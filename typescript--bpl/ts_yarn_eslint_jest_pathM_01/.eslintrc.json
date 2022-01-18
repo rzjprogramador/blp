@@ -1,0 +1,27 @@
+{
+    "env": {
+        "es2021": true,
+        "jest": true
+    },
+    "extends": [
+        "standard",
+        "eslint:recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+      "indent": ["off", "no-tabs"],   // identacao  tab ou no-tabs
+      "quotes": ["error", "single"], // aspas
+      "semi": ["error", "never"],    // ponto-virgula no final
+      "space-before-function-paren": "off", // espaço antes de parênteses de função
+      "comma-dangle": ["warn", "never"], // vírgula pendente : a ultima prop do objeto
+      "@typescript-eslint/no-empty-function": "off",
+      "@typescript-eslint/strict-boolean-expressions": "off"
+    }
+}
