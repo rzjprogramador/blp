@@ -21,6 +21,9 @@
       "semi": ["error", "never"],    // ponto-virgula no final
       "space-before-function-paren": "off", // espaço antes de parênteses de função
       "comma-dangle": ["warn", "never"], // vírgula pendente : a ultima prop do objeto
+      "prefer-const": "off", // preferencia só usar constantes
+      "no-useless-constructor": "off", // construtor nao util
+      "no-use-before-define": "off", // sem uso antes de definir
       "@typescript-eslint/no-empty-function": "off",
       "@typescript-eslint/strict-boolean-expressions": "off"
     }
